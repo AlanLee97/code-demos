@@ -1,0 +1,71 @@
+/*白色*/
+.al-text-color-white{
+    color: #FFFFFF;
+}
+/*淡白色*/
+.al-text-color-light-white{
+    color: #FCFCFC;
+}
+
+
+/*黑色*/
+.al-text-color-black{
+    color: #000000;
+}
+/*淡黑色*/
+.al-text-color-light-black{
+    color: #555555;
+}
+
+
+/*蓝色*/
+.al-text-color-blue{
+    color: #00b0ff;
+}
+/*淡蓝色*/
+.al-text-color-light-blue{
+    color: #85ccff;
+}
+
+
+/*绿色*/
+.al-text-color-green{
+    color: #00c788;
+}
+/*淡绿色*/
+.al-text-color-light-green{
+    color: #1de9b6;
+}
+
+
+
+/*红色*/
+.al-text-color-red{
+    color: #ff3519;
+}
+/*淡红色*/
+.al-text-color-light-red{
+    color: #ff5357;
+}
+
+
+
+/*黄色*/
+.al-text-color-yellow{
+    color: #fcff40;
+}
+/*淡黄色*/
+.al-text-color-light-yellow{
+    color: #f4ff84;
+}
+
+
+/*紫色*/
+.al-text-color-purple{
+    color: #6f0dff;
+}
+/*淡紫色*/
+.al-text-color-light-purple{
+    color: #b676ff;
+}
+

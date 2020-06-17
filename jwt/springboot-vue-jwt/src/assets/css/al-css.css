@@ -1,0 +1,1508 @@
+/*================BEGIN 盒子大小================*/
+.al-box-size-1px {
+    width: 1px;
+    height: 1px;
+}
+
+.al-box-size-5px {
+    width: 5px;
+    height: 5px;
+}
+
+.al-box-size-10px {
+    width: 10px;
+    height: 10px;
+}
+
+.al-box-size-20px {
+    width: 20px;
+    height: 20px;
+}
+
+.al-box-size-30px {
+    width: 30px;
+    height: 30px;
+}
+
+.al-box-size-40px {
+    width: 40px;
+    height: 40px;
+}
+
+.al-box-size-50px {
+    width: 50px;
+    height: 50px;
+}
+
+.al-box-size-100px {
+    width: 100px;
+    height: 100px;
+}
+
+.al-box-size-200px {
+    width: 200px;
+    height: 200px;
+}
+
+/*================END 盒子大小================*/
+
+
+/*================BEGIN 分割线================*/
+/* 分割线-白色 */
+.al-divide-line-white {
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+/* 分割线-淡白色（灰白色） */
+.al-divide-line-light-white {
+    height: 1px;
+    background-color: #EFEFEF;
+}
+
+/* 分割线-黑色 */
+.al-divide-line-black {
+    height: 1px;
+    background-color: #000000;
+}
+
+/* 分割线-淡黑色 */
+.al-divide-line-light-black {
+    height: 1px;
+    background-color: #555555;
+}
+
+/* 分割线-绿色 */
+.al-divide-line-green {
+    height: 1px;
+    background-color: #00c788;
+}
+
+/* 分割线-淡绿色 */
+.al-divide-line-light-green {
+    height: 1px;
+    background-color: #1de9b6;
+}
+
+/* 分割线-蓝色 */
+.al-divide-line-blue {
+    height: 1px;
+    background-color: #00b0ff;
+}
+
+/* 分割线-淡蓝色 */
+.al-divide-line-light-blue {
+    height: 1px;
+    background-color: #85ccff;
+}
+
+/* 分割线-红色 */
+.al-divide-line-red {
+    height: 1px;
+    background-color: #ff3519;
+}
+
+/* 分割线-淡红色 */
+.al-divide-line-light-red {
+    height: 1px;
+    background-color: #ff5357;
+}
+
+/* 分割线-黄色 */
+.al-divide-line-yellow {
+    height: 1px;
+    background-color: #fcff40;
+}
+
+/* 分割线-淡黄色 */
+.al-divide-line-light-yellow {
+    height: 1px;
+    background-color: #f4ff84;
+}
+
+/* 分割线-紫色 */
+.al-divide-line-purple {
+    height: 1px;
+    background-color: #6f0dff;
+}
+
+/* 分割线-淡紫色 */
+.al-divide-line-light-purple {
+    height: 1px;
+    background-color: #b676ff;
+}
+
+/*================END 分割线================*/
+
+
+/*================BEGIN 背景颜色================*/
+/* 白色背景 */
+.al-bg-opacity-0 {
+    opacity: 0;
+}
+
+/* 白色背景 */
+.al-bgcolor-transparent {
+    background-color: #00000000;
+}
+
+/* 白色背景 */
+.al-bgcolor-white-ffffff {
+    background-color: #FFFFFF;
+}
+
+/* 灰白色背景 */
+.al-bgcolor-grey-fcfcfc {
+    background-color: #FCFCFC;
+}
+
+/* 灰白色背景 */
+.al-bgcolor-grey-f1f1f1 {
+    background-color: #F1F1F1;
+}
+
+
+/*背景颜色-白色*/
+.al-bg-color-white {
+    background-color: #FFFFFF;
+}
+
+/*背景颜色-淡白色*/
+.al-bg-color-light-white {
+    background-color: #FCFCFC;
+}
+
+/*背景颜色-淡白色*/
+.al-bg-color-light-white2 {
+    background-color: #F6F6F6;
+}
+
+/*背景颜色-黑色*/
+.al-bg-color-black {
+    background-color: #000000;
+}
+
+/*背景颜色-淡黑色*/
+.al-bg-color-light-black {
+    background-color: #555555;
+}
+
+/*背景颜色-蓝色*/
+.al-bg-color-blue {
+    background-color: #00b0ff;
+}
+
+/*背景颜色-淡蓝色*/
+.al-bg-color-light-blue {
+    background-color: #85ccff;
+}
+
+/*背景颜色-绿色*/
+.al-bg-color-green {
+    background-color: #00c788;
+}
+
+/*背景颜色-淡绿色*/
+.al-bg-color-light-green {
+    background-color: #1de9b6;
+}
+
+/*背景颜色-红色*/
+.al-bg-color-red {
+    background-color: #ff3519;
+}
+
+/*背景颜色-淡红色*/
+.al-bg-color-light-red {
+    background-color: #ff5357;
+}
+
+/*背景颜色-黄色*/
+.al-bg-color-yellow {
+    background-color: #fcff40;
+}
+
+/*背景颜色-淡黄色*/
+.al-bg-color-light-yellow {
+    background-color: #f4ff84;
+}
+
+/*背景颜色-紫色*/
+.al-bg-color-purple {
+    background-color: #6f0dff;
+}
+
+/*背景颜色-淡紫色*/
+.al-bg-color-light-purple {
+    background-color: #b676ff;
+}
+
+
+/*================END 背景颜色================*/
+
+
+/*================BEGIN 显示================*/
+
+/*----------- 弹性布局 ----------*/
+.al-flex-container {
+    display: flex;
+}
+
+
+/*flex垂直居中*/
+.al-flex-container-center-v {
+    display: flex;
+    align-items: center;
+}
+
+/*flex水平居中*/
+.al-flex-container-center-h {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*flex水平垂直居中*/
+.al-flex-container-center-vh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*flex水平靠右*/
+.al-flex-right-h {
+    display: flex;
+    justify-content: right;
+}
+
+/*flex水平靠右*/
+.al-flex-left-h {
+    display: flex;
+    justify-content: left;
+}
+
+
+/*flex方向*/
+.al-flex-direction-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*flex-warp*/
+.al-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.al-flex-container-align-item-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.al-width-match-parent {
+    display: flex;
+    align-items: stretch;
+}
+
+.al-flex-container-align-item-normal {
+    display: flex;
+    align-items: normal;
+}
+
+.al-flex-item-grow-1 {
+    flex-grow: 1;
+}
+
+.al-flex-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.al-flex-justify-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------- 弹性布局 ----------*/
+
+
+.al-ma-center {
+    margin: 0 auto;
+}
+
+
+/* 显示为行内元素,让元素不会独占一行 */
+.al-display-inline {
+    display: inline;
+}
+
+/* 显示为块状,让元素不会独占一行 */
+.al-d-il-blk {
+    display: inline-block;
+}
+
+/* 显示为块状,让元素不会独占一行 */
+.al-d-blk {
+    display: block;
+}
+
+/* 显示边框-红色：查看元素位置时使用 */
+.al-show-border {
+    border: red 1px solid;
+}
+
+/* 显示边框-绿色：查看元素位置时使用 */
+.al-show-border-green {
+    border: #39B54A 1px solid;
+}
+
+/* 显示边框-蓝色：查看元素位置时使用 */
+.al-show-border-blue {
+    border: #0081FF 1px solid;
+}
+
+/* 显示边框-蓝色：查看元素位置时使用 */
+.al-show-border-light-blue {
+    border: #00b6ff 1px solid;
+}
+
+
+/* 显示边框-蓝色：查看元素位置时使用 */
+.al-border-gradient-light-blue {
+    border-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-image: -webkit-linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-image: -moz-linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+
+.al-border-capsule {
+    border-radius: 999em;
+}
+
+.al-hover-gradient-light-blue:hover {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+
+/* 显示背景颜色-红色：查看元素位置时使用 */
+.al-show-bg-red {
+    background-color: #E54D42;
+}
+
+.al-show-bg-light-red {
+    background-color: rgba(229, 77, 66, 0.48);
+}
+
+/* 显示背景颜色-绿色：查看元素位置时使用 */
+.al-show-bg-green {
+    background-color: #00c788;
+}
+
+/* 显示背景颜色-蓝色：查看元素位置时使用 */
+.al-show-bg-blue {
+    background-color: #00b6ff;
+}
+
+/* 显示背景颜色-蓝色：查看元素位置时使用 */
+.al-show-bg-f1f1f1 {
+    background-color: #f1f1f1;
+}
+
+/*----------- 位置 ----------*/
+/*绝对位置*/
+.al-position-abs {
+    position: absolute;
+}
+
+/*相对位置*/
+.al-position-rela {
+    position: relative;
+}
+
+/*固定位置*/
+.al-position-fixed {
+    position: fixed;
+}
+
+/*sticky位置*/
+.al-position-sticky {
+    position: sticky;
+}
+
+/*static位置*/
+.al-position-static {
+    position: static;
+}
+
+/*z-index*/
+.al-z-index--1 {
+    z-index: -1;
+}
+
+/*z-index*/
+.al-z-index-9 {
+    z-index: 9;
+}
+
+.al-z-index-99 {
+    z-index: 99;
+}
+
+.al-z-index-999 {
+    z-index: 999;
+}
+
+.al-z-index-9999 {
+    z-index: 9999;
+}
+
+
+/*靠左*/
+.al-float-left {
+    float: left;
+}
+
+/*靠右*/
+.al-float-right {
+    float: right;
+}
+
+/*靠右*/
+.al-float-right-10px {
+    float: right;
+}
+
+
+/*文字靠左*/
+.al-text-left {
+    text-align: left;
+}
+
+/*文字靠右*/
+.al-text-right {
+    text-align: right;
+}
+
+.al-right-0 {
+    right: 0;
+}
+
+.al-right-10 {
+    right: 10px;
+}
+
+.al-right-20 {
+    right: 20px;
+}
+
+.al-right-30 {
+    right: 30px;
+}
+
+.al-right-40 {
+    right: 40px;
+}
+
+.al-right-50 {
+    right: 50px;
+}
+
+.al-right-60 {
+    right: 60px;
+}
+
+.al-text-overflow-show-point {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+
+/*左边框颜色 - 轻黑色*/
+.al-border-left-color-light-black {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 5px solid rgba(28, 28, 28, 0.97);
+}
+
+/*左边框颜色 - 轻绿色*/
+.al-border-left-color-light-green {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 5px solid rgba(0, 199, 136, 0.97);
+}
+
+/*左边框颜色 - 轻蓝色*/
+.al-border-left-color-light-blue {
+
+    border-left: 5px solid rgba(133, 204, 255, 0.97);
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+
+/*----------- 显示效果 ----------*/
+/* 显示圆角，有阴影10px */
+.al-box-shadow-radius {
+    box-shadow: 2px 2px 8px #EFEFEF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+/* 显示圆角，无阴影10px */
+.al-box-radius {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* 显示阴影 */
+.al-box-shadow {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 8px #DBDBDB;
+
+}
+
+.al-hover-shadow:hover {
+    box-shadow: 3px 3px 10px 5px rgba(229, 229, 229, 0.91);
+}
+
+.al-hover-shadow-radius:hover {
+    box-shadow: 3px 3px 10px 5px rgba(229, 229, 229, 0.91);
+    border-radius: 10px;
+}
+
+.al-box-radius-50 {
+    border-radius: 50%;
+}
+
+
+/*溢出隐藏*/
+.al-overflow-hide {
+    overflow: hidden;
+}
+
+
+/*溢出滚动*/
+.al-overflow-scroll {
+    overflow: scroll;
+}
+
+/*溢出滚动*/
+.al-overflow-scroll-hide-bar {
+    overflow: scroll -moz-scrollbars-none;
+}
+
+/*================END 显示================*/
+
+
+/*================BEGIN 宽度================*/
+/* 元素宽度 */
+.al-width-auto {
+    width: auto;
+}
+
+.al-width-10 {
+    width: 10%;
+}
+
+.al-width-20 {
+    width: 20%;
+}
+
+.al-width-25 {
+    width: 25%;
+}
+
+.al-width-30 {
+    width: 30%;
+}
+
+.al-width-33 {
+    width: 33.3%;
+}
+
+.al-width-40 {
+    width: 40%;
+}
+
+.al-width-45 {
+    width: 45%;
+}
+
+.al-width-50 {
+    width: 50%;
+}
+
+.al-width-60 {
+    width: 60%;
+}
+
+.al-width-70 {
+    width: 70%;
+}
+
+.al-width-80 {
+    width: 80%;
+}
+
+.al-width-90 {
+    width: 90%;
+}
+
+.al-width-100 {
+    width: 100%;
+}
+
+.al-width-110 {
+    width: 110%;
+}
+
+.al-width-120 {
+    width: 120%;
+}
+
+.al-width-130 {
+    width: 130%;
+}
+
+.al-width-140 {
+    width: 140%;
+}
+
+.al-width-150 {
+    width: 150%;
+}
+
+.al-width-auto {
+    width: auto;
+}
+
+/* ----- 高度 -----*/
+.al-height-10 {
+    height: 10%;
+}
+
+.al-height-20 {
+    height: 20%;
+}
+
+.al-height-30 {
+    height: 30%;
+}
+
+.al-height-40 {
+    height: 40%;
+}
+
+.al-height-50 {
+    height: 50%;
+}
+
+.al-height-60 {
+    height: 60%;
+}
+
+.al-height-70 {
+    height: 70%;
+}
+
+.al-height-80 {
+    height: 80%;
+}
+
+.al-height-90 {
+    height: 90%;
+}
+
+.al-height-100 {
+    height: 100%;
+}
+
+.al-height-auto {
+    height: auto;
+}
+
+/*================END 宽度================*/
+
+
+/*================BEGIN 边距================*/
+/*---------- 外边距 ----------*/
+/* 距离左边10px */
+.al-m-left-10px {
+    margin-left: 10px;
+}
+
+/* 距离左边20px */
+.al-m-left-20px {
+    margin-left: 20px;
+}
+
+.al-m-left-30px {
+    margin-left: 30px;
+}
+
+.al-m-left-40px {
+    margin-left: 40px;
+}
+
+.al-m-left-50px {
+    margin-left: 50px;
+}
+
+.al-m-left--50px {
+    margin-left: -50px;
+}
+
+.al-m-left--100px {
+    margin-left: -100px;
+}
+
+/* 距离右边边10px */
+.al-m-right-10px {
+    margin-right: 10px;
+}
+
+.al-m-right-20px {
+    margin-right: 20px;
+}
+
+.al-m-right-30px {
+    margin-right: 30px;
+}
+
+.al-m-right-40px {
+    margin-right: 40px;
+}
+
+.al-m-right-50px {
+    margin-right: 50px;
+}
+
+/* 距离顶部 */
+.al-m-top--30px {
+    margin-top: 10px;
+}
+
+.al-m-top--20px {
+    margin-top: 10px;
+}
+
+.al-m-top--10px {
+    margin-top: 10px;
+}
+
+.al-m-top-10px {
+    margin-top: 10px;
+}
+
+.al-m-top-20px {
+    margin-top: 20px;
+}
+
+.al-m-top-30px {
+    margin-top: 30px;
+}
+
+.al-m-top-40px {
+    margin-top: 40px;
+}
+
+.al-m-top-10px {
+    margin-top: 10px;
+}
+
+.al-m-top-50px {
+    margin-top: 50px;
+}
+
+
+/* 距离底部px */
+.al-m-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.al-m-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.al-m-bottom-30px {
+    margin-bottom: 20px;
+}
+
+.al-m-bottom-20px {
+    margin-bottom: 30px;
+}
+
+.al-m-bottom-40px {
+    margin-bottom: 40px;
+}
+
+.al-m-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.al-m-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.al-m-bottom-60px {
+    margin-bottom: 60px;
+}
+
+.al-m-bottom-70px {
+    margin-bottom: 70px;
+}
+
+.al-m-bottom-80px {
+    margin-bottom: 80px;
+}
+
+.al-m-bottom-90px {
+    margin-bottom: 90px;
+}
+
+.al-m-bottom-100px {
+    margin-bottom: 100px;
+}
+
+/* 外边距10px */
+.al-m-5px {
+    margin: 5px;
+}
+
+/* 外边距10px */
+.al-m-10px {
+    margin: 10px;
+}
+
+/* 外边距20px */
+.al-m-20px {
+    margin: 20px;
+}
+
+/* 外边距30px */
+.al-m-30px {
+    margin: 30px;
+}
+
+/* 外边距40px */
+.al-m-40px {
+    margin: 40px;
+}
+
+/* 外边距-左右-5px */
+.al-m-lr-5px {
+    margin: 0 5px 0 5px ;
+}
+
+/* 外边距-左右-10px */
+.al-m-lr-10px {
+    margin: 0 10px 0 10px ;
+}
+
+/* 外边距-左右-20px */
+.al-m-lr-20px {
+    margin: 0 20px 0 20px ;
+}
+
+/* 外边距-左右-30px */
+.al-m-lr-30px {
+    margin: 0 30px 0 30px ;
+}
+
+/* 外边距-左右-40px */
+.al-m-lr-40px {
+    margin: 0 40px 0 40px ;
+}
+
+/* 外边距-左右-50px */
+.al-m-lr-50px {
+    margin: 0 50px 0 50px ;
+}
+
+
+
+/*---------- 外边距 ----------*/
+/* 内边距5px */
+.al-p-5px {
+    padding: 5px;
+}
+
+/* 内边距10px */
+.al-p-10px {
+    padding: 10px;
+}
+
+/* 内边距20px */
+.al-p-20px {
+    padding: 20px;
+}
+
+/* 内边距30px */
+.al-p-30px {
+    padding: 30px;
+}
+
+/* 内边距40px */
+.al-p-40px {
+    padding: 40px;
+}
+
+
+/* 内边距-左-10px */
+.al-p-left-10px {
+    padding-left: 10px;
+}
+
+/* 内边距-左-20px */
+.al-p-left-20px {
+    padding-left: 20px;
+}
+
+/* 内边距-左-30px */
+.al-p-left-30px {
+    padding-left: 30px;
+}
+
+/* 内边距-左-40px */
+.al-p-left-40px {
+    padding-left: 40px;
+}
+
+
+/* 内边距-上-10px */
+.al-p-top-10px {
+    padding-top: 10px;
+}
+
+/* 内边距-上-20px */
+.al-p-top-20px {
+    padding-top: 20px;
+}
+
+/* 内边距-上-30px */
+.al-p-top-30px {
+    padding-top: 30px;
+}
+
+/* 内边距-上-40px */
+.al-p-top-40px {
+    padding-top: 40px;
+}
+
+
+/* 内边距-右-10px */
+.al-p-right-10px {
+    padding-right: 10px;
+}
+
+/* 内边距-右-20px */
+.al-p-right-20px {
+    padding-right: 20px;
+}
+
+/* 内边距-右-30px */
+.al-p-right-30px {
+    padding-right: 30px;
+}
+
+/* 内边距-右-40px */
+.al-p-right-40px {
+    padding-right: 40px;
+}
+
+
+/* 内边距-下-10px */
+.al-p-bottom-10px {
+    padding-bottom: 10px;
+}
+
+/* 内边距-下-20px */
+.al-p-bottom-20px {
+    padding-bottom: 20px;
+}
+
+/* 内边距-下-30px */
+.al-p-bottom-30px {
+    padding-bottom: 30px;
+}
+
+/* 内边距-下-40px */
+.al-p-bottom-40px {
+    padding-bottom: 40px;
+}
+
+
+
+
+/*内外边距组合*/
+.al-box-margin-padding {
+    padding: 10px;
+    margin: 16px;
+}
+
+.al-box-margin-no-bottom {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.al-line-height-10px {
+    line-height: 10px;
+}
+
+/*================END 边距================*/
+
+
+/*================BEGIN 字体================*/
+/* ---------- 字体大小 ----------*/
+.al-fontsize-10px {
+    font-size: 10px;
+}
+
+.al-fontsize-20px {
+    font-size: 20px;
+}
+
+.al-fontsize-30px {
+    font-size: 30px;
+}
+
+.al-fontsize-40px {
+    font-size: 40px;
+}
+
+.al-fontsize-50px {
+    font-size: 50px;
+}
+
+.al-fontsize-60px {
+    font-size: 60px;
+}
+
+.al-fontsize-70px {
+    font-size: 70px;
+}
+
+.al-fontsize-80px {
+    font-size: 80px;
+}
+
+.al-fontsize-90px {
+    font-size: 90px;
+}
+
+.al-fontsize-100px {
+    font-size: 100px;
+}
+
+
+/* ---------- 字体粗细程度 ----------*/
+
+.al-font-weight-100 {
+    font-weight: 100;
+}
+
+.al-font-weight-200 {
+    font-weight: 200;
+}
+
+.al-font-weight-300 {
+    font-weight: 300;
+}
+
+.al-font-weight-400 {
+    font-weight: 400;
+}
+
+.al-font-weight-500 {
+    font-weight: 500;
+}
+
+.al-font-weight-600 {
+    font-weight: 600;
+}
+
+.al-font-weight-700 {
+    font-weight: 700;
+}
+
+.al-font-weight-800 {
+    font-weight: 800;
+}
+
+.al-font-weight-bold {
+    font-weight: bold;
+}
+
+/* ---------- 字体颜色 ----------*/
+/* 字体灰色 */
+.al-font-color-grey {
+    color: #bcbcbc;
+}
+
+.al-font-color-light-blue {
+    color: #00e5ff;
+}
+
+.al-font-color-light-red {
+    color: #f44336;
+}
+
+.al-font-color-light-black {
+    color: #5f5f5f;
+}
+
+.al-font-color-light-green {
+    color: #1de9b6;
+}
+
+
+/*白色*/
+.al-text-color-white {
+    color: #FFFFFF;
+}
+
+/*淡白色*/
+.al-text-color-light-white {
+    color: #FCFCFC;
+}
+
+
+/*黑色*/
+.al-text-color-black {
+    color: #000000;
+}
+
+/*淡黑色*/
+.al-text-color-light-black {
+    color: #6c6c6c;
+}
+
+
+/*蓝色*/
+.al-text-color-blue {
+    color: #00b0ff;
+}
+
+/*淡蓝色*/
+.al-text-color-light-blue {
+    color: #85ccff;
+}
+
+/*粉色*/
+.al-text-color-pink {
+    color: #ff6e8d;
+}
+
+/*淡粉色*/
+.al-text-color-light-pink {
+    color: #ff9ebf;
+}
+
+
+/*绿色*/
+.al-text-color-green {
+    color: #00c788;
+}
+
+/*淡绿色*/
+.al-text-color-light-green {
+    color: #1de9b6;
+}
+
+
+/*红色*/
+.al-text-color-red {
+    color: #ff3519;
+}
+
+/*淡红色*/
+.al-text-color-light-red {
+    color: #ff5357;
+}
+
+
+/*黄色*/
+.al-text-color-yellow {
+    color: #fcff40;
+}
+
+/*淡黄色*/
+.al-text-color-light-yellow {
+    color: #f4ff84;
+}
+
+
+/*紫色*/
+.al-text-color-purple {
+    color: #6f0dff;
+}
+
+/*淡紫色*/
+.al-text-color-light-purple {
+    color: #b676ff;
+}
+
+/*================END 字体================*/
+
+
+/*================BEGIN icon大小================*/
+
+.al-icon-size-50px {
+    width: 50px;
+    height: 50px;
+}
+
+.al-icon-size-100px {
+    width: 100px;
+    height: 100px;
+}
+
+.al-icon-size-150px {
+    width: 150px;
+    height: 150px;
+}
+
+.al-icon-size-200px {
+    width: 200px;
+    height: 200px;
+}
+
+/*================END icon大小================*/
+
+
+/*================BEGIN 标题================*/
+.al-title-h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.al-title-h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.al-title-h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.al-title-h1-bold {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.al-title-h2-bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.al-title-h3-bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*================END 标题================*/
+
+
+/*================BEGIN 图片================*/
+/*圆形图片*/
+.al-img-circle {
+    border-radius: 50%;
+}
+
+/*鼠标悬停在图片上，图片放大*/
+.al-hover-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1.0s;
+}
+
+/*================END 图片================*/
+
+
+/*================BEGIN 鼠标指示器================*/
+.al-cursor-pointer {
+    cursor: pointer;
+}
+
+/*================END 鼠标指示器================*/
+
+
+/*================BEGIN 盒子================*/
+.al-box-pretty {
+    box-shadow: 2px 2px 8px #EFEFEF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.al-box-pretty-no-bottom {
+    box-shadow: 2px 2px 8px #EFEFEF;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFFFFF;
+    margin: 10px 10px 0 10px;
+}
+
+.al-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+/*================END 盒子================*/
+
+
+/*================BEGIN 遮罩================*/
+/*使用时需指定元素的宽高*/
+.al-mask-black-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.al-mask-black-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.al-mask-black-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.al-mask-black-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.al-mask-black-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.al-mask-black-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.al-mask-black-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.al-mask-black-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.al-mask-black-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/*================END 遮罩================*/
+
+
+/*================BEGIN 鼠标悬停================*/
+
+/*白色*/
+.al-hover-color-white:hover {
+    color: #FFFFFF;
+}
+
+/*淡白色*/
+.al-hover-color-light-white:hover {
+    color: #FCFCFC;
+}
+
+
+/*黑色*/
+.al-hover-color-black:hover {
+    color: #000000;
+}
+
+/*淡黑色*/
+.al-hover-color-light-black:hover {
+    color: #555555;
+}
+
+
+/*蓝色*/
+.al-hover-color-blue:hover {
+    color: #00b0ff;
+}
+
+/*淡蓝色*/
+.al-hover-color-light-blue:hover {
+    color: #85ccff;
+}
+
+
+/*绿色*/
+.al-hover-color-green:hover {
+    color: #00c788;
+}
+
+/*淡绿色*/
+.al-hover-color-light-green:hover {
+    color: #1de9b6;
+}
+
+
+/*红色*/
+.al-hover-color-red:hover {
+    color: #ff3519;
+}
+
+/*淡红色*/
+.al-hover-color-light-red:hover {
+    color: #ff5357;
+}
+
+
+/*黄色*/
+.al-hover-color-yellow:hover {
+    color: #fcff40;
+}
+
+/*淡黄色*/
+.al-hover-color-light-yellow:hover {
+    color: #f4ff84;
+}
+
+
+/*紫色*/
+.al-hover-color-purple:hover {
+    color: #6f0dff;
+}
+
+/*淡紫色*/
+.al-hover-color-light-purple:hover {
+    color: #b676ff;
+}
+
+.al-hover-transform-scale-1-1:hover {
+    transform: scale(1.01);
+}
+
+/*================END 鼠标悬停================*/
+
+
+/*================BEGIN 鼠标悬停================*/
+.al-gradient-to-top-black {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.01));
+
+}
+
+.al-gradient-to-top-blue {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.al-gradient-to-top-light-blue {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+
+/*================END 鼠标悬停================*/
