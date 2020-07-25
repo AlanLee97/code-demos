@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1445654576@qq.com
+    password: xxx
+    properties.mail.smtp.port: 465
+    from: 1445654576@qq.com
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: UTF-8
