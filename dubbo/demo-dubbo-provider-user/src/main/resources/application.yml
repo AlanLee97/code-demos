@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: demo-dubbo-provider-user
+
+service:
+  user:
+    version: 1.0.0
+
+# dubbo配置
+dubbo:
+  scan:
+    # 配置扫描包路径
+    basePackages:  top.alanlee.demo.dubbo.provider.user.service.impl
+  application:
+    id: ${spring.application.name}
+    name: ${spring.application.name}
+
+  # 协议
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20880
+    status: server
+
+  # 注册中心
+  registry:
+    id: zookeeper
+    address: zookeeper://localhost:2181
+
+server:
+  port: 8100
