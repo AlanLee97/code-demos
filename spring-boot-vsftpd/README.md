@@ -1,6 +1,6 @@
 # Spring Boot集成FTP文件上传服务
 
-> 源码地址：
+> 源码地址：https://github.com/AlanLee97/code-demos/tree/master/spring-boot-vsftpd
 
 文件服务器使用的是vsftpd
 
