@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  #配置文件上传器
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+#ftp相关配置
+ftp:
+  address: 192.168.3.100
+  port: 21
+  username: ftptest
+  password: 123456
+  basepathfile: /file
+
+#文件地址
+file:
+  base:
+    url: http://192.168.3.100/file
