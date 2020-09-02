@@ -7,3 +7,4 @@
 - spring-boot-email
 - aliyun-sms
 - quartz
+- spring-boot-vsftpd
