@@ -32,4 +32,11 @@ public class UserServiceImpl implements UserService {
     public List<User> getAll() {
         return userMapper.getAll();
     }
+
+    public User login(String username, String password) {
+        User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+        return userMapper.login(user);
+    }
 }

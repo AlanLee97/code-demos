@@ -1,6 +1,4 @@
-package top.alanlee.template.entity.dto;
-
-import com.alibaba.fastjson.JSON;
+package top.alanlee.template.dto;
 
 import java.io.Serializable;
 
@@ -51,19 +49,32 @@ public class ApiJson<T> implements Serializable {
                 '}';
     }
 
-    public String toJson(){
-        return JSON.toJSONString(this);
+    public static ApiJson ok(){
+        return new ApiJson(1, "ok", null);
+    }
+
+    public static ApiJson ok(String msg){
+        return new ApiJson(1, msg, null);
     }
 
     public static ApiJson ok(Object data){
         return new ApiJson(1, "ok", data);
     }
 
+    public static ApiJson ok(String msg, Object data){
+        return new ApiJson(1, msg, data);
+    }
+
     public static ApiJson error(){
         return new ApiJson(0, "error", null);
     }
 
-    public static ApiJson error(String errMsg){
-        return new ApiJson(0, errMsg, null);
+    public static ApiJson error(String msg){
+        return new ApiJson(0, msg, null);
+    }
+
+    public static ApiJson error(String msg, Object data){
+        return new ApiJson(0, msg, data);
     }
 }
+

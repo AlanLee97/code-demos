@@ -7,4 +7,11 @@
         SELECT *
         FROM t_user
     </select>
+
+    <select id="login"
+            resultType="top.alanlee.template.entity.User">
+        SELECT *
+        FROM t_user
+        WHERE username=#{username} and password=#{password}
+    </select>
 </mapper>

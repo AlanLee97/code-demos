@@ -8,5 +8,6 @@ import top.alanlee.template.entity.User;
 @Mapper
 @Repository
 public interface UserMapper extends BaseCRUD<User> {
+    User login(User user);
 
 }

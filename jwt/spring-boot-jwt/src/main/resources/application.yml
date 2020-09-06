@@ -3,19 +3,13 @@ spring:
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
-
-#    url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    # url: jdbc:mysql://192.168.1.20:3306/master_db1?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring_boot_template?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-
 server:
   port: 8080
 
-
-audience:
-  clientId: 098f6bcd4621d373cade4e832627b4f6
-  base64Secret: MDk4ZjZiY2Q0NjIxZDM3M2NhZGU0ZTgzMjYyN2I0ZjY=
-  name: restapiuser
-  expireSecond: 172800
-
+# 自定义的jwt配置
+jwt:
+  # 过期时间：2小时
+  expire: 7200000
+  # 密钥
+  secret: 6Dx8SIuaHXJYnpsG18SSpjPs50lZcT52
